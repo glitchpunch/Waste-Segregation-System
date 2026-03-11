@@ -1,0 +1,7 @@
+python -m venv .venv
+
+./.venv/Scripts/activate
+
+pip install streamlit matplotlib pandas plotly scikit-learn numpy IPython
+
+streamlit run app.py
